@@ -45,6 +45,11 @@
    });
 
    // section 3
+  ScrollReveal().reveal('.section-3 h1', {
+     delay: 300,
+     distance: '20px',
+     origin: 'bottom',
+   });
    ScrollReveal().reveal('.section-3-blob', {
      delay: 300,
      distance: '50px',
@@ -55,13 +60,12 @@
      distance: '20px',
      origin: 'bottom',
    });
-   ScrollReveal().reveal('.map-container', {
+  // section 4
+  ScrollReveal().reveal('.section-4 h1', {
      delay: 300,
      distance: '20px',
-     origin: 'right',
+     origin: 'bottom',
    });
-  
-  // section 5
    ScrollReveal().reveal('.news-container', {
      delay: 300,
      distance: '50px',
@@ -113,6 +117,13 @@
    ScrollReveal().reveal('.icons, .copyright-text', {
      delay: 300,
      distance: '20px',
+     origin: 'bottom',
+   });
+  
+  //map
+  ScrollReveal().reveal('.map-container', {
+     delay: 300,
+     distance: '50px',
      origin: 'bottom',
    });
 
