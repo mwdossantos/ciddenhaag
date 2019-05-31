@@ -60,6 +60,18 @@
      distance: '20px',
      origin: 'right',
    });
+  
+  // section 5
+   ScrollReveal().reveal('.news-container', {
+     delay: 300,
+     distance: '50px',
+     origin: 'bottom',
+   });
+   ScrollReveal().reveal('.section-4-container .button', {
+     delay: 400,
+     distance: '20px',
+     origin: 'bottom',
+   });
 
    // section 5
    ScrollReveal().reveal('.section-5-blob', {
