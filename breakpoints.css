@@ -1,0 +1,144 @@
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 1024px) {
+    
+    header {
+      padding: 20px;
+      flex-direction: column;
+    }
+    
+    .section-1-container {
+      padding: 0 30px;
+      
+    }
+    
+    .section-1 {
+      margin-bottom: 50px!important;
+    }
+    
+    .section-1-logo {
+      display: none;
+    }
+    
+    .video-container {
+      margin: 0;
+      width: 100%;
+    }
+  
+    .section-2-container {
+      flex-direction: column;
+      padding: 0 30px;
+    }
+    
+    .section-3-container {
+      flex-direction: column;
+      padding: 0 30px;
+    }
+    
+    .section-4 {
+      margin: 60px 0px!important;
+    }
+    
+    .section-4-container {
+      padding: 0 30px;
+    }
+    
+    .section-5 {
+      margin: 60px 0px;
+      margin-bottom: 60px!important;
+    }
+    .section-5-container {
+      padding: 0 30px;
+    }
+    
+    .section-5-promo {
+      box-sizing:border-box;
+      object-fit: cover;
+      max-width: 315px;
+      height: 150px;
+    }
+    
+    
+    .footer-container {
+      margin: 30px;
+      flex-direction: column;
+    }
+    
+    .deelgebieden {
+      margin: 30px 0px;
+    }
+    
+    .input-holder {
+      flex-direction: column;
+      align-items: inherit;
+    }
+    
+    .input-holder input {
+      width: inherit;
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+    
+    .copyright-text {
+      margin: 30px;
+    }
+    
+    .sct {
+      margin-bottom: 0;
+    }
+    
+    .section-3-blob {
+      width: 350px;
+    }
+    
+    .news-container {
+      padding: 0px;
+      margin-top: 30px;
+    }
+    
+    .news-item {
+      width: 100%;
+    }
+    
+    .map-container {
+      width: 100%;
+    }
+    
+    .links {
+      display: flex;
+      flex-direction: column;
+      
+    }
+    
+    .nav-bar {
+      width: 100%;
+      box-sizing: border-box;
+      flex-direction:column;
+      margin-top: 20px;
+    }
+    .divider-vertical {
+      width: 30px;
+      height: 4px;
+      margin: 10px 0px;
+    }
+    
+    .nav-bar-link {
+      text-align: center;
+      font-size:16px;
+      margin: 5px 0px;
+    }
+    
+    .socials {
+      margin-left: 0;
+      flex-direction:column;
+    }
+    
+    .footer-container {
+      align-items: center;
+      text-align:center;
+    }
+    
+    .menu {
+      align-items: center;
+    }
+}

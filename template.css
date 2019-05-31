@@ -1,0 +1,8 @@
+.section-2-container {
+  flex-direction: column;  
+}
+
+.post-image {
+  margin-top: 30px;
+  width: 100%;
+}
